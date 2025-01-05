@@ -1,4 +1,4 @@
-import { storage } from "@/provider/firebase";
+import { storage } from "@/firebase";
 import {
   ref,
   uploadBytes,
