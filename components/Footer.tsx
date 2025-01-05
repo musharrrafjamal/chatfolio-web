@@ -58,7 +58,7 @@ const Footer = () => {
               className="hover:scale-105 transition-all duration-300"
             >
               <Image 
-                src="/icons/x.svg" 
+                src="/icons/twitterX.svg" 
                 alt="X" 
                 width={32} 
                 height={32}
