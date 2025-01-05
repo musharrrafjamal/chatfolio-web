@@ -46,6 +46,7 @@ const Footer = () => {
               <Image
                 src="/icons/github.svg"
                 alt="Github"
+                unoptimized
                 width={32}
                 height={32}
               />
@@ -56,7 +57,13 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="hover:scale-105 transition-all duration-300"
             >
-              <Image src="/icons/x.svg" alt="X" width={32} height={32} />
+              <Image 
+                src="/icons/x.svg" 
+                alt="X" 
+                width={32} 
+                height={32}
+                unoptimized
+              />
             </a>
           </motion.div>
 
