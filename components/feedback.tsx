@@ -159,7 +159,7 @@ const Feedback = () => {
 
   const feedbackEmoji = () => {
     if (rating <= 1) return <Frown className="w-16 h-16 text-red-500" />;
-    if (rating <= 4) return <Meh className="w-16 h-16 text-yellow-500" />;
+    if (rating <= 3) return <Meh className="w-16 h-16 text-yellow-500" />;
     return <Smile className="w-16 h-16 text-green-500" />;
   };
 
